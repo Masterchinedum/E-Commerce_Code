@@ -17,7 +17,7 @@ const formSchema = z.object({
 })
 
 
-export const StoreModal = ()  {
+export const StoreModal = () => {
 
     const [loading, setLoading] = useState(false)
 
