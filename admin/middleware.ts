@@ -18,6 +18,8 @@
 //   matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
 // };
 
+
+
 // import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 
 // const isApiRoute = createRouteMatcher(['/api/:path*']);
@@ -37,6 +39,8 @@
 //     '/(api|trpc)(.*)',
 //   ],
 // };
+
+
 
 import { clerkMiddleware } from "@clerk/nextjs/server";
 
